@@ -4,3 +4,5 @@ classes/
 .gradle/
 .idea_modules/
 *.iml
+*.ipr
+*.iws
