@@ -8,6 +8,7 @@ version = '1.0-SNAPSHOT'
 group = 'org.suggs.virtualmachines'
 
 task wrapper(type: Wrapper){
+    description = "Generates gradlew scripts for NIX and win envs"
     gradleVersion = '1.6'
 }
 
