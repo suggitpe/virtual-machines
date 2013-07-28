@@ -7,6 +7,10 @@ buildDir = 'target'
 version = '1.0-SNAPSHOT'
 group = 'org.suggs.virtualmachines'
 
+task wrapper(type: Wrapper){
+    gradleVersion = '1.6'
+}
+
 repositories {
     mavenLocal()
     mavenCentral()
